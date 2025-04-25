@@ -8,13 +8,12 @@ I’d like to discuss my perspective on Clean Architecture. Before we proceed, I
 
 However, for the purpose of our conversation, I’ll provide a brief overview of the concept before delving into my insights.
 
-# Project Overview
-
-According to Android Documentation, Architecture Components are a set of Android libraries for structuring your app in a way that is robust, testable, and maintainable.
+### Project Overview
 
 This project aims to demonstrate the usage of Android Architecture Components and how this components can be used in an application with a MVVM architecture in Kotlin.
 
-# Let's explore Architecture Components
+### Let's explore Architecture Components
+According to Android Documentation, Architecture Components are a set of Android libraries for structuring your app in a way that is robust, testable, and maintainable.
 
 #### Presentation/UI
 
