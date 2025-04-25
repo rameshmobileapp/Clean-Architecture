@@ -52,3 +52,5 @@ This purely deals with UI and views the system of Android and its state handling
 - To ensure flexibility in replacing the data layer library, such as Retrofit, with another library without affecting the domain and UI layers, the data layer should solely consist of the API and a data source for memory.
 - It should only depend on api , datasource memory if the data layer depends on anything else it's a red flag
 
+However, for the purpose of our conversation, I’ll provide a brief overview of the concept before delving into my insights.
+
