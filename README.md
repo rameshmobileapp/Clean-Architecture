@@ -27,3 +27,28 @@ However, for the purpose of our conversation, I’ll provide a brief overview of
 - This can be a pure Java/ Kotlin module based on the library you used in the multi-module application
 
 #### My points on the clean architecture 
+
+Inner layer should not depend on out layer
+
+This implies that the repository should have no dependency on the use case, and similarly, the use case should not depend on the presentation layer ( ViewModel).
+
+#### UI/Presentation
+
+This purely deals with UI and views the system of Android and its state handling.
+
+#### Domain Layer
+
+- The Domain must remain independent of all other layers.
+- On the other hand, a use case can have another use case as its dependency, allowing the delegation of responsibilities to the dependent use case. but this can lead to circular dependency in large projects which we need to keep watch on.
+- Do not hold any state
+- It calls a method of the repository to fetch data without caring how and from where it comes.
+- No threading details on the Domain layer.
+- I prefer to have a single method in use cases like invoke(..). Many are adding multiple methods to use case.
+
+
+
+#### Data Layer
+
+- To ensure flexibility in replacing the data layer library, such as Retrofit, with another library without affecting the domain and UI layers, the data layer should solely consist of the API and a data source for memory.
+- It should only depend on api , datasource memory if the data layer depends on anything else it's a red flag
+
