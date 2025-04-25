@@ -33,7 +33,7 @@ According to Android Documentation, Architecture Components are a set of Android
 - It Contains Repository Implementation from the case
 - This can be a pure Java/ Kotlin module based on the library you used in the multi-module application
 
-# My points on the clean architecture 
+#### My points on the clean architecture 
 
 Inner layer should not depend on out layer
 
