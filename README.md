@@ -10,7 +10,11 @@ However, for the purpose of our conversation, I’ll provide a brief overview of
 
 # Project Overview
 
+According to Android Documentation, Architecture Components are a set of Android libraries for structuring your app in a way that is robust, testable, and maintainable.
+
 This project aims to demonstrate the usage of Android Architecture Components and how this components can be used in an application with a MVVM architecture in Kotlin.
+
+# Let's explore Architecture Components
 
 #### Presentation/UI
 
@@ -57,4 +61,9 @@ This purely deals with UI and views the system of Android and its state handling
 - It should only depend on api , datasource memory if the data layer depends on anything else it's a red flag
 
 However, for the purpose of our conversation, I’ll provide a brief overview of the concept before delving into my insights.
+
+### Refrences:
+ِAndroid Documentation
+source code for the official Google I/O 2018 for Android app
+Architecture Components Code Lab
 
