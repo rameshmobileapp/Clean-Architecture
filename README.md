@@ -63,7 +63,7 @@ This purely deals with UI and views the system of Android and its state handling
 However, for the purpose of our conversation, I’ll provide a brief overview of the concept before delving into my insights.
 
 ### Refrences:
-ِ- Android Documentation
-- source code for the official Google I/O 2018 for Android app
-- Architecture Components Code Lab
+  - Android Documentation
+  - source code for the official Google I/O 2018 for Android app
+  - Architecture Components Code Lab
 
